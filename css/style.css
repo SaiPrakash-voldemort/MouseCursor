@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 13vw;
+  text-transform: uppercase;
+}
+.cursor {
+  border-radius: 50%;
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  transition: 0.3s;
+  mix-blend-mode: difference;
+}
